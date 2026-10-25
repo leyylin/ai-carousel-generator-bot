@@ -37,9 +37,14 @@ generated_carousel/
 photo_history.json
 *.png
 !docs/preview/*.png
+!assets/*.png
 *.jpg
 *.jpeg
 !docs/preview/*.jpg
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.webp
+!assets/*.gif
 
 # ---------------- Caches and logs ----------------
 *.log
