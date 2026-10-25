@@ -1,0 +1,23 @@
+.slide {
+    --accent: #d8c3a8;
+    --accent-strong: #f0dbc2;
+    --accent-contrast: #191513;
+    --shade: 9, 8, 7;
+    --font-display: 'Inter', Arial, sans-serif;
+    --font-ui: 'Inter', Arial, sans-serif;
+    --title-weight: 600;
+    --title-letter: -2.8px;
+    --title-size-cover: 104px;
+    --title-size-final: 86px;
+    --title-size-middle: 78px;
+    --body-size: 25px;
+    --em-style: normal;
+    --cta-radius: 4px;
+}
+
+.title { line-height: .99; }
+.title em { font-weight: 600; }
+.kicker { letter-spacing: 4px; }
+.badge { letter-spacing: 3.4px; }
+.cover .content::before { width: 56px; height: 3px; }
+.cover .title { letter-spacing: -3px; }

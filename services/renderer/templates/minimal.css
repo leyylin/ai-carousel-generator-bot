@@ -1,0 +1,23 @@
+.slide {
+    --accent: #efdcc6;
+    --accent-strong: #fff0de;
+    --accent-contrast: #161311;
+    --shade: 13, 11, 9;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-ui: 'Inter', Arial, sans-serif;
+    --title-weight: 500;
+    --title-letter: -1.4px;
+    --title-size-cover: 118px;
+    --title-size-final: 98px;
+    --title-size-middle: 90px;
+    --body-size: 25px;
+    --em-style: italic;
+    --cta-radius: 0;
+}
+
+.title { line-height: 1; }
+.title em { font-weight: 500; }
+.badge { letter-spacing: 2.4px; }
+.highlight { border-left-width: 1px; }
+.cover .content::before { width: 44px; }
+.cover .title { letter-spacing: -2.2px; }

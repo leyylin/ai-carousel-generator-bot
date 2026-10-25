@@ -1,0 +1,60 @@
+# ---------------- Secrets ----------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ---------------- Virtual environments ----------------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------------- Databases ----------------
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+data/
+
+# ---------------- Generated assets ----------------
+output/
+generated/
+generated_carousel/
+photo_history.json
+*.png
+!docs/preview/*.png
+*.jpg
+*.jpeg
+!docs/preview/*.jpg
+
+# ---------------- Caches and logs ----------------
+*.log
+logs/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+playwright-report/
+
+# ---------------- Editors / OS ----------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

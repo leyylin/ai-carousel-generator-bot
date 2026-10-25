@@ -1,0 +1,22 @@
+# AI Carousel Generator Bot — runtime dependencies
+# Python 3.11+ recommended (tested on 3.12)
+
+# Telegram Bot framework (async, FSM, middlewares, Telegram Stars invoicing)
+aiogram>=3.15.0,<4.0.0
+
+# Async SQLAlchemy + SQLite driver (users, subscriptions, payments)
+SQLAlchemy>=2.0.30,<3.0.0
+aiosqlite>=0.20.0
+
+# Async HTTP client for LLM (OpenAI-compatible) and image providers
+aiohttp>=3.9.5
+
+# Typed settings validation
+pydantic>=2.7.0,<3.0.0
+
+# .env loading
+python-dotenv>=1.0.1
+
+# Headless Chromium rendering of HTML/CSS slide templates → PNG
+# After installing, fetch the browser once:  playwright install chromium
+playwright>=1.45.0

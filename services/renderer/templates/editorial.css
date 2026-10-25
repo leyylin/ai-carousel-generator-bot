@@ -1,0 +1,22 @@
+.slide {
+    --accent: #e8c8a9;
+    --accent-strong: #f2d3b3;
+    --accent-contrast: #1d1815;
+    --shade: 12, 10, 8;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-ui: 'Inter', Arial, sans-serif;
+    --title-weight: 600;
+    --title-letter: -1.8px;
+    --title-size-cover: 106px;
+    --title-size-final: 88px;
+    --title-size-middle: 80px;
+    --body-size: 26px;
+    --em-style: italic;
+    --cta-radius: 999px;
+}
+
+.cover .title {
+    letter-spacing: -2.4px;
+    line-height: .97;
+}
+.final .title { line-height: 1; }
